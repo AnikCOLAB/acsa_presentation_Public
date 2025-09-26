@@ -1,0 +1,12 @@
+{
+    "2":{"Accuracy":{"GPT":[], "Gemini":[]}, "Relevance":{"GPT":[], "Gemini":[]}},
+    "4":{"Critical Thinking":{"GPT":[], "Gemini":[]}},
+    "7":{"Accuracy":{"GPT":[], "Gemini":[]}, "Clarity":{"GPT":[], "Gemini":[]}},
+    "10":{"Relevance":{"GPT":[], "Gemini":[]}, "Critical Thinking":{"GPT":[], "Gemini":[]}},
+    "12":{"Accuracy":{"GPT":[], "Gemini":[]}, "Clarity":{"GPT":[], "Gemini":[]}},
+    "15":{"Clarity":{"GPT":[], "Gemini":[]}, "Relevance":{"GPT":[], "Gemini":[]}, "Critical Thinking":{"GPT":[], "Gemini":[]}},
+    "17":{"Critical Thinking":{"GPT":[], "Gemini":[]},"Clarity":{"GPT":[], "Gemini":[]}},
+    "19":{"Accuracy":{"GPT":[], "Gemini":[]},"Relevance":{"GPT":[], "Gemini":[]}},
+    "22":{"Accuracy":{"GPT":[], "Gemini":[]},"Clarity":{"GPT":[], "Gemini":[]},"Relevance":{"GPT":[], "Gemini":[]}},
+    "25":{"Critical Thinking":{"GPT":[], "Gemini":[]}}
+}

@@ -1,0 +1,82 @@
+[
+{"data":
+    {"topic":"1. Site Investigation",
+    "sub_topic":"1.1 Basic understanding of the site",
+    "evaluation": ["How up to date is the model’s knowledge, and how well does its pretraining reflect current information and practices?",
+                        "How effectively can different LLMs process and synthesize large volumes of information?"],
+    "criteria":["Accuracy", "Relevance"]}},
+"This is the RFQ of the project we will be working on.",
+"Based on the site information, climatic conditions, the given RFQ, and available knowledge, explain the key design influences and critical site conditions we should consider.",
+
+{"data":
+    {"topic":"1. Site Investigation",
+    "sub_topic":"1.2 Context understanding based on given Images",
+    "evaluation":["How accurately do different LLMs interpret and respond to visual inputs such as sketches, diagrams, and other images?"],
+    "criteria":["Critical Thinking"]}},
+"How walkable and pedestrian-friendly is our site? Among the four surrounding roads, which should be designated for pedestrian entry and which for vehicular entry?",
+
+{"data":
+    {"topic":"2. Create proposal",
+    "sub_topic":"2.1 Ask Critical questions from RFQ",
+    "evaluation":["How thoroughly do different LLMs read, analyze, and extract information from documents?",
+                        "How well do different LLMs identify connections and relationships across multiple sources of information?"],
+    "criteria":["Accuracy", "Clarity"]}},
+"Explain the program requirements described in the given RFQ. What are the vision and goals of this project?",
+"Provide four examples of similar nearby projects. Explain their strengths and weaknesses, and identify elements we should take inspiration from.",
+
+{"data":
+    {"topic":"2. Create proposal",
+    "sub_topic":"2.2 Check LLM's Understanding of Design Intent",
+    "evaluation":["How effectively do different LLMs interpret a building in three dimensions, including spatial relationships and massing?",
+                "How well do different LLMs interpret the designer’s intentions, and to what extent does their reasoning align with the designer’s perspective?"],
+    "criteria":["Relevance", "Critical Thinking"]}},
+"From the conceptual sketch of our first design proposal, titled “Medium”, explain the design intent, major takeaways, key benefits, and possible drawbacks.",
+"To what extent does our current massing align with the program requirements and the illustrated design intentions?",
+
+{"data":
+    {"topic":"3. Compare proposals",
+    "sub_topic":"3.1 Ask Quantitive comparison of multiple proposals",
+    "evaluation":["How well do different LLMs handle accumulated knowledge and information (including both images and data)?"],
+    "criteria":["Accuracy", "Clarity"]}},
+"Compare the three current proposals. How well does each fulfill the program requirements? Which proposal has the largest exterior envelope area?",
+
+{"data":
+    {"topic":"3. Compare proposals",
+    "sub_topic":"3.2 Ask Qualitative comparison of multiple proposals",
+    "evaluation":["How effectively do different LLMs interpret buildings in a three-dimensional manner over time?",
+                "How well do different LLMs interpret building simulation analyses, compare results effectively, and synthesize insights from overlapping simulation outcomes?"],
+    "criteria":["Clarity", "Relevance", "Critical Thinking"]}},
+"Critically analyze all three proposals based on simulated sun-hour and microclimate analysis. How should the building orientation and envelope design respond to solar access and prevailing wind?",
+"Explain the aesthetic aspects of the proposed massings and how different design decisions align with community needs, local planning policies, and neighborhood identity?",
+
+{"data":
+    {"topic":"4. Make Changes",
+    "sub_topic":"4.1 Recommend changes for multiple proposal",
+    "evaluation":["What critical viewpoints do different LLMs highlight, and how well do these align with the designer’s intent?"],
+    "criteria":["Critical Thinking","Clarity"]}},
+"From the three proposals, select two to move forward with. Explain what changes should be made to improve those two proposals.",
+
+{"data":
+    {"topic":"4. Make Changes",
+    "sub_topic":"4.2 Ask questions about what changes have been made",
+    "evaluation":["How effectively do different LLMs keep track of past information within their context window?"],
+    "criteria":["Accuracy","Relevance"]}},
+"For only the two proposals you have selected, What changes have been rendered so far? Critically analyze the positive and negative impacts of those changes.",
+
+{"data":
+    {"topic":"5. Sustainability",
+    "sub_topic":"5.1 Ask case-sensitive question",
+    "evaluation":["How accurate, detailed, and practical is the sustainability-related information provided by different LLMs?"],
+    "criteria":["Accuracy","Clarity","Relevance"]}},
+"Will the site qualify for LEED v4.1 credit for Access to Quality Transit?",
+"What are the nearby sources of pollution? What measures should we take to mitigate their impacts, and how should our design respond to future climate risks (such as heat waves, flooding, or seismic activity)",
+
+{"data":
+    {"topic":"5. Sustainability",
+    "sub_topic":"5.2 Compare proposals based on Sustainability",
+    "evaluation":["How well do different LLMs demonstrate critical judgment when making complex or difficult design decisions?",
+                "How consistently do different LLMs maintain the same logic and avoid contradictions?"],
+    "criteria":["Critical Thinking"]}},
+"I have tested multiple building configurations and calculated their operational and embodied carbon. Compare the different configurations and their outcomes, and justify which option is better.",
+"Help us finalize one single proposal. Provide both a concise summary and a detailed configuration and analysis of the selected option, explaining why it stands out as the most suitable"
+]
