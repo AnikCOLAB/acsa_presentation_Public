@@ -7,13 +7,13 @@ from botocore.exceptions import ClientError
 import json
 import streamlit as st
 
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 #set up amazon S3
-S3_BUCKET = os.environ.get("S3_BUCKET", "your-bucket")
-AWS_ACCESS_KEY_ID = os.environ["AWS_ACCESS_KEY_ID"]
-AWS_SECRET_ACCESS_KEY = os.environ["AWS_SECRET_ACCESS_KEY"]
+S3_BUCKET = st.secrets["S3_BUCKET"]
+AWS_ACCESS_KEY_ID = st.secrets["AWS_ACCESS_KEY_ID"]
+AWS_SECRET_ACCESS_KEY = st.secrets["AWS_SECRET_ACCESS_KEY"]
 
 
 s3 = boto3.client(
